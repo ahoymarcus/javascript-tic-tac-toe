@@ -1,0 +1,126 @@
+/* CSS RESET - meyerweb.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+
+body { 
+	font-family: Roboto, Sans-serif; 
+	background-color: #D4FABE; /*#f5e34752;*/
+	color: #7d6969; /*#716c6c; #7d6969*/
+}
+
+p {
+	color: black;
+}
+
+li {
+	color: #5e2121;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+h2 {
+	font-size: 1.7rem;
+}
+h3 {
+	font-size: 1.3rem;
+}
+h4 {
+	font-size: 1.2rem;
+}
+h5 {
+	font-size: 1rem;
+}
+
+
+
+body {
+	background-color: #e6e6a3; /*#fdfdcc;*/
+}
+
+hr {
+	margin-bottom: 60px;
+}
+
+.header {
+	color: #4c4460;
+	text-align: center;
+}
+
+.header__desc {
+	font-size: 1.4rem;
+}
+
+.header__title {
+	font-size: 3.2rem;
+}
+
+.header__title-span {
+	color: red;
+}
+
+.header__aux-btn {
+	color: #f21a1a;
+	background-color: #aaaac8;
+	border: 3px dashed yellow;
+	font-size: 1rem;
+	text-transform: uppercase;
+	
+	margin: 20px 0px;
+	padding: 12px;
+	cursor: pointer;
+	position: relative;
+	right: 50px;
+}
+
+
+
+
+
+
